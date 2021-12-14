@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="color">#FF0000</color>
     <color name="blue">#03A9F4</color>
+    <color name="color_of_signs">#AFABAB</color>
+    <color name="color_equally">#445BDF</color>
+    <color name="color_numbers">#F3F3F3</color>
 </resources>
