@@ -100,6 +100,7 @@ public class Counters implements Serializable {
     }
 
     public char getValuePlus() {
+
         return valuePlus;
     }
 

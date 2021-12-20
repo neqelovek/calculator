@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setTetCounters() {
-        setTextCounter(textCounters, counters.getValue3());
-        setTextCounter(textCounters, counters.getValue2());
 
 
     }
@@ -212,7 +210,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.first_button:
                 setTextCounter(textCounters, counters.getValue1());
-
                 break;
 
             case R.id.two_button:
@@ -244,12 +241,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.zero_button:
                 setTextCounter(textCounters, counters.getValue0());
                 break;
+            case R.id.plus_button:
+                textCounters.setText(String.valueOf(counters.getValuePlus()));
+                break;
+            case R.id.point_button:
+                textCounters.setText(String.valueOf(counters.getValuePoint()));
+                break;
+            case R.id.minus_button:
+                textCounters.setText(String.valueOf(counters.getValueMinus()));
+                break;
+            case R.id.multiply_button:
+                textCounters.setText(String.valueOf(counters.getValueMultiply()));
+                break;
+            case R.id.equally_button:
+                textCounters.setText(String.valueOf(counters.getValueEqually()));
+                break;
+            case R.id.to_share_button:
+                textCounters.setText(String.valueOf(counters.getValueShare()));
+                break;
 
         }
 
     }
 
     private void setTextCounter(TextView textCounters, int counter) {
+
         textCounters.setText(String.format(Locale.getDefault(), "%d", counter));
     }
 }
@@ -294,43 +310,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //          case R.id.clean_button:
 //          setTextCounter(textCounters, counters.getValueClean());
 //          break;
-
-
-//     field_for_numbers = (TextView) findViewById(R.id.field_for_numbers);
-//        Button memory_clean_button = findViewById(R.id.memory_clean_button);
-//        Button memory_plus_button = findViewById(R.id.memory_plus_button);
-//        Button memory_minus_button = findViewById(R.id.memory_minus_button);
-//        Button memory_read_button = findViewById(R.id.memory_read_button);
-//        Button clean_all_button = findViewById(R.id.clean_all_button);
-//        Button to_share_button = findViewById(R.id.to_share_button);
-//        Button multiply_button = findViewById(R.id.multiply_button);
-//        Button clean_button = findViewById(R.id.clean_button);
-//        Button seven_button = findViewById(R.id.seven_button);
-//        Button eight_button = findViewById(R.id.eight_button);
-//        Button nine_button = findViewById(R.id.nine_button);
-//        Button minus_button = findViewById(R.id.minus_button);
-//        Button four_button = findViewById(R.id.four_button);
-//        Button five_button = findViewById(R.id.five_button);
-//        Button six_button = findViewById(R.id.six_button);
-//        Button plus_button = findViewById(R.id.plus_button);
-//        first_button = (Button) findViewById(R.id.first_button);
-//        two_button = (Button) findViewById(R.id.two_button);
-//        three_button = (Button) findViewById(R.id.three_button);
-//        Button point_button = findViewById(R.id.point_button);
-//        Button percent_button = findViewById(R.id.percent_button);
-//        Button zero_button = findViewById(R.id.zero_button);
-//        Button equally_button = findViewById(R.id.equally_button);
-//
-//        first_button.setOnClickListener(this);
-//        two_button.setOnClickListener(this);
-//        three_button.setOnClickListener(this);
-
-
-//        first_button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                field_for_numbers.setText(String.format(Locale.getDefault(), "%d", value.valueButton1));
-//
-//            }
-//        });
