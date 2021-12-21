@@ -12,7 +12,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/one"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 
@@ -24,7 +24,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/two"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
     <Button
@@ -35,7 +35,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/three"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 
@@ -47,7 +47,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/four"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 
@@ -59,7 +59,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/five"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
     <Button
@@ -70,7 +70,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/six"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
     <Button
@@ -81,7 +81,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/seven"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 
@@ -93,7 +93,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/eight"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 
@@ -105,7 +105,7 @@
         android:backgroundTint="@color/blue"
         android:text="@string/nine"
         android:textColor="@color/color"
-        android:textSize="@dimen/size"
+        android:textSize="@dimen/size_text"
         android:textStyle="italic" />
 
 

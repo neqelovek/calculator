@@ -40,7 +40,7 @@
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_clean"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -54,7 +54,7 @@
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_plus"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -68,7 +68,7 @@
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_minus"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -77,11 +77,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_read"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -96,11 +97,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/clean_all"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -109,11 +111,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/to_share"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -122,11 +125,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/multiply"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -135,11 +139,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/clean"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -154,11 +159,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/seven"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -167,11 +173,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/eight"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -180,11 +187,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/nine"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
         <Button
@@ -192,11 +200,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/minus"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -212,11 +221,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/four"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
         <Button
@@ -224,11 +234,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/five"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -237,11 +248,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/six"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
         <Button
@@ -249,11 +261,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/plus"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -270,11 +283,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/one"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -283,11 +297,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/two"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -296,11 +311,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/three"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -309,11 +325,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/point"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -328,11 +345,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/percent"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
         <Button
@@ -340,11 +358,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/zero"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
 
@@ -353,11 +372,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="2.21"
             android:backgroundTint="@color/color_equally"
             android:text="@string/equally"
             android:textColor="@color/black"
-            android:textSize="@dimen/size"
+            android:textSize="@dimen/size_text"
             android:textStyle="bold" />
 
     </LinearLayout>
