@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Counters counters;
     private TextView textCounters;
+    private TextView result;
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle instanceState) {
@@ -28,11 +29,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onRestoreInstanceState(@NonNull Bundle instanceState) {
         super.onRestoreInstanceState(instanceState);
         counters = (Counters) instanceState.getSerializable(keyCounters);
-        setTetCounters();
+        setTextCounters();
     }
 
-    private void setTetCounters() {
-
+    private void setTextCounters() {
+        result.setText(String.valueOf(result.getText()));
 
     }
 
@@ -47,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initView() {
+
+        result = findViewById(R.id.result);
         textCounters = findViewById(R.id.field_for_numbers);
         initButton1ClickListener();
         initButton2ClickListener();
@@ -212,37 +215,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setTextCounter(textCounters, counters.getValue1());
                 break;
 
-            case R.id.two_button:
-                setTextCounter(textCounters, counters.getValue2())
-                ;
-                break;
-            case R.id.three_button:
-                setTextCounter(textCounters, counters.getValue3());
-                break;
-            case R.id.four_button:
-
-                setTextCounter(textCounters, counters.getValue4());
-                break;
-            case R.id.five_button:
-                setTextCounter(textCounters, counters.getValue5());
-                break;
-            case R.id.six_button:
-                setTextCounter(textCounters, counters.getValue6());
-                break;
-            case R.id.seven_button:
-                setTextCounter(textCounters, counters.getValue7());
-                break;
-            case R.id.eight_button:
-                setTextCounter(textCounters, counters.getValue8());
-                break;
-            case R.id.nine_button:
-                setTextCounter(textCounters, counters.getValue9());
-                break;
-            case R.id.zero_button:
-                setTextCounter(textCounters, counters.getValue0());
-                break;
+//            case R.id.two_button:
+//                setTextCounter(textCounters, counters.getValue2());
+//                break;
+//            case R.id.three_button:
+//                setTextCounter(textCounters, counters.getValue3());
+//                break;
+//            case R.id.four_button:
+//
+//                setTextCounter(textCounters, counters.getValue4());
+//                break;
+//            case R.id.five_button:
+//                setTextCounter(textCounters, counters.getValue5());
+//                break;
+//            case R.id.six_button:
+//                setTextCounter(textCounters, counters.getValue6());
+//                break;
+//            case R.id.seven_button:
+//                setTextCounter(textCounters, counters.getValue7());
+//                break;
+//            case R.id.eight_button:
+//                setTextCounter(textCounters, counters.getValue8());
+//                break;
+//            case R.id.nine_button:
+//                setTextCounter(textCounters, counters.getValue9());
+//                break;
+//            case R.id.zero_button:
+//                setTextCounter(textCounters, counters.getValue0());
+//                break;
             case R.id.plus_button:
-                textCounters.setText(String.valueOf(counters.getValuePlus()));
+                setTextCounter(textCounters, counters.getValuePlus());
                 break;
             case R.id.point_button:
                 textCounters.setText(String.valueOf(counters.getValuePoint()));
@@ -264,13 +266,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    private void setTextCounter(TextView textCounters, int counter) {
+    @SuppressLint("SetTextI18n")
+    private void setTextCounter(TextView textCounters, char counter) {
+        textCounters.setText(String.format(Locale.getDefault(), "%s", counter));
+        result.setText(String.valueOf(textCounters.getText()) + result.getText());
 
-        textCounters.setText(String.format(Locale.getDefault(), "%d", counter));
     }
 }
-
-
 //  case R.id.to_share_button:
 //          setTextCounter(textCounters, counters.getValueShare());
 //          break;

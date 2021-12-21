@@ -12,11 +12,18 @@
         android:layout_weight="1" />
 
     <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <TextView
         android:id="@+id/field_for_numbers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#FF0000"/>
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,6 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_clean"
@@ -36,16 +44,12 @@
             android:textStyle="bold" />
 
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
-
-
         <Button
             android:id="@+id/memory_plus_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_plus"
@@ -53,15 +57,13 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/memory_minus_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_margin="@dimen/size_whitespace"
             android:layout_weight="1"
             android:backgroundTint="@color/color_of_signs"
             android:text="@string/memory_minus"
@@ -69,9 +71,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/memory_read_button"
@@ -104,10 +103,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
-
 
         <Button
             android:id="@+id/to_share_button"
@@ -121,9 +116,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/multiply_button"
@@ -137,9 +129,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/clean_button"
@@ -172,10 +161,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
-
 
         <Button
             android:id="@+id/eight_button"
@@ -189,9 +174,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/nine_button"
@@ -204,10 +186,6 @@
             android:textColor="@color/black"
             android:textSize="@dimen/size"
             android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/minus_button"
@@ -241,10 +219,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
-
         <Button
             android:id="@+id/five_button"
             android:layout_width="0dp"
@@ -257,9 +231,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/six_button"
@@ -272,10 +243,6 @@
             android:textColor="@color/black"
             android:textSize="@dimen/size"
             android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/plus_button"
@@ -310,9 +277,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/two_button"
@@ -326,9 +290,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/three_button"
@@ -342,9 +303,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/point_button"
@@ -377,10 +335,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
-
         <Button
             android:id="@+id/zero_button"
             android:layout_width="0dp"
@@ -393,9 +347,6 @@
             android:textSize="@dimen/size"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="@dimen/size_whitespace"
-            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/equally_button"
