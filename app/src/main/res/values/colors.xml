@@ -12,4 +12,5 @@
     <color name="color_of_signs">#AFABAB</color>
     <color name="color_equally">#445BDF</color>
     <color name="color_numbers">#F3F3F3</color>
+    <color name="color_sting_number">#FF0000</color>
 </resources>
