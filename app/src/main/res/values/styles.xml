@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButtonNumbersStyle">
+        <item name="rippleColor">@color/color_ripple_button</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_button</item>
+        <item name="android:layout_height">@dimen/height_button</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_numbers</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalcButtonActionStyle">
+        <item name="rippleColor">@color/color_ripple_button_action</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_btn_action</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_of_signs</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="StyleTextButtonResult">
+        <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_sting_number</item>
+        <item name="android:textSize">@dimen/size_string_numbers</item>
+    </style>
+
+    <style name="CalcButtonActionStyleLand">
+        <item name="rippleColor">@color/color_ripple_button_action</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_btn_action</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_of_signs</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
