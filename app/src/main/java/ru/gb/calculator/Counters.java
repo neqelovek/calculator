@@ -19,14 +19,7 @@ public class Counters implements Serializable {
     private final char valueEqually;
     private final char valueMultiply;
     private final char valueShare;
-    private final char valuePoint;
     private final char valueClean;
-    private final char valuePercent;
-    private final String valueCleanAll;
-    private final String valueMemoryClean;
-    private final String valueMemoryPlus;
-    private final String valueMemoryMinus;
-    private final String valueMemoryRead;
 
 
     public Counters() {
@@ -46,15 +39,7 @@ public class Counters implements Serializable {
         valueEqually = '=';
         valueMultiply = '*';
         valueShare = '/';
-        valuePoint = '.';
-        valueCleanAll = "CE";
         valueClean = 'C';
-        valuePercent = '%';
-        valueMemoryClean = "MC";
-        valueMemoryPlus = "M+";
-        valueMemoryMinus = "M-";
-        valueMemoryRead = "MR";
-
 
 
     }
@@ -120,36 +105,8 @@ public class Counters implements Serializable {
         return valueShare;
     }
 
-    public char getValuePoint() {
-        return valuePoint;
-    }
-
-    public String getValueCleanAll() {
-        return valueCleanAll;
-    }
-
     public char getValueClean() {
         return valueClean;
-    }
-
-    public char getValuePercent() {
-        return valuePercent;
-    }
-
-    public String getValueMemoryClean() {
-        return valueMemoryClean;
-    }
-
-    public String getValueMemoryPlus() {
-        return valueMemoryPlus;
-    }
-
-    public String getValueMemoryMinus() {
-        return valueMemoryMinus;
-    }
-
-    public String getValueMemoryRead() {
-        return valueMemoryRead;
     }
 }
 

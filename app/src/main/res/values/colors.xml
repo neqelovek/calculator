@@ -13,4 +13,6 @@
     <color name="color_equally">#445BDF</color>
     <color name="color_numbers">#F3F3F3</color>
     <color name="color_sting_number">#FF0000</color>
+    <color name="color_ripple_button">#FF0000</color>
+    <color name="color_ripple_button_action">#2196F3</color>
 </resources>
