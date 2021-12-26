@@ -24,7 +24,7 @@ public class Counters implements Serializable {
 
     public Counters() {
 
-        value1 = '1';
+        value1 = 1;
         value2 = 2;
         value3 = 3;
         value4 = 4;
@@ -44,8 +44,10 @@ public class Counters implements Serializable {
 
     }
 
-    public char getValue1() {
-        return (char) value1;
+
+
+    public int  getValue1() {
+        return value1;
     }
 
     public int getValue2() {
@@ -85,7 +87,6 @@ public class Counters implements Serializable {
     }
 
     public char getValuePlus() {
-
         return valuePlus;
     }
 

@@ -156,53 +156,50 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         switch (v.getId()) {
-
             case R.id.first_button:
-                setTextCounter(textCounters, counters.getValue1());
+                setTextCounter(textCounters, String.valueOf(counters.getValue1()));
                 break;
-
-//            case R.id.two_button:
-//                setTextCounter(textCounters, counters.getValue2());
-//                break;
-//            case R.id.three_button:
-//                setTextCounter(textCounters, counters.getValue3());
-//                break;
-//            case R.id.four_button:
-//
-//                setTextCounter(textCounters, counters.getValue4());
-//                break;
-//            case R.id.five_button:
-//                setTextCounter(textCounters, counters.getValue5());
-//                break;
-//            case R.id.six_button:
-//                setTextCounter(textCounters, counters.getValue6());
-//                break;
-//            case R.id.seven_button:
-//                setTextCounter(textCounters, counters.getValue7());
-//                break;
-//            case R.id.eight_button:
-//                setTextCounter(textCounters, counters.getValue8());
-//                break;
-//            case R.id.nine_button:
-//                setTextCounter(textCounters, counters.getValue9());
-//                break;
-//            case R.id.zero_button:
-//                setTextCounter(textCounters, counters.getValue0());
-//                break;
+            case R.id.two_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue2()));
+                break;
+            case R.id.three_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue3()));
+                break;
+            case R.id.four_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue4()));
+                break;
+            case R.id.five_button:
+                setTextCounter(textCounters,String.valueOf( counters.getValue5()));
+                break;
+            case R.id.six_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue6()));
+                break;
+            case R.id.seven_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue7()));
+                break;
+            case R.id.eight_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue8()));
+                break;
+            case R.id.nine_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue9()));
+                break;
+            case R.id.zero_button:
+                setTextCounter(textCounters, String.valueOf(counters.getValue0()));
+                break;
             case R.id.plus_button:
-                setTextCounter(textCounters, counters.getValuePlus());
+                setTextCounter(textCounters, String.valueOf(counters.getValuePlus()));
                 break;
             case R.id.minus_button:
-                textCounters.setText(String.valueOf(counters.getValueMinus()));
+                setTextCounter(textCounters, String.valueOf(counters.getValueMinus()));
                 break;
             case R.id.multiply_button:
-                textCounters.setText(String.valueOf(counters.getValueMultiply()));
+                setTextCounter(textCounters,String.valueOf(counters.getValueMultiply()));
                 break;
             case R.id.equally_button:
-                textCounters.setText(String.valueOf(counters.getValueEqually()));
+                setTextCounter(textCounters,String.valueOf(counters.getValueEqually()));
                 break;
             case R.id.to_share_button:
-                textCounters.setText(String.valueOf(counters.getValueShare()));
+                setTextCounter(textCounters,String.valueOf(counters.getValueShare()));
                 break;
 
         }
@@ -210,12 +207,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @SuppressLint("SetTextI18n")
-    private void setTextCounter(TextView textCounters, char counter) {
+    private void setTextCounter(TextView textCounters, String counter) {
         textCounters.setText(String.format(Locale.getDefault(), "%s", counter));
         result.setText(String.valueOf(textCounters.getText()) + result.getText());
-
     }
 }
+
+
 //  case R.id.to_share_button:
 //          setTextCounter(textCounters, counters.getValueShare());
 //          break;
