@@ -28,4 +28,5 @@
     <string name="black_style">Black style</string>
     <string name="light_style">Light Style</string>
     <string name="red_style">Red style</string>
+    <string name="choose_style">Choose style calaculator</string>
 </resources>
