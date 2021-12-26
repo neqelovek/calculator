@@ -24,4 +24,8 @@
     <string name="memory_plus">M+</string>
     <string name="memory_minus">M-</string>
     <string name="memory_read">MR</string>
+    <string name="standard_style">Standard style</string>
+    <string name="black_style">Black style</string>
+    <string name="light_style">Light Style</string>
+    <string name="red_style">Red style</string>
 </resources>
