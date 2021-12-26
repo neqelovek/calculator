@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img"
@@ -12,16 +13,16 @@
         android:layout_weight="1" />
 
     <TextView
-        android:id="@+id/calc_result"
+        android:id="@+id/field_calc_result"
         style="@style/StyleTextButtonResult"
         android:textSize="@dimen/size_string_numbers_result" />
 
     <TextView
-        android:id="@+id/result_button"
+        android:id="@+id/field_operation"
         style="@style/StyleTextButtonResult" />
 
     <TextView
-        android:id="@+id/field_for_numbers"
+        android:id="@+id/field_numbers"
         style="@style/StyleTextButtonResult" />
 
 
@@ -33,7 +34,9 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/plus_button"
             style="@style/CalcButtonActionStyle"
-            android:text="@string/plus" />
+            android:onClick="onOperationClick"
+            android:text="@string/plus"
+            tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/minus_button"
@@ -60,12 +63,15 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/seven_button"
             style="@style/CalcButtonNumbersStyle"
-            android:text="@string/seven" />
+            android:text="@string/seven"
+            />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/eight_button"
+
             style="@style/CalcButtonNumbersStyle"
-            android:text="@string/eight" />
+            android:text="@string/eight"
+           />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nine_button"
@@ -136,10 +142,12 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/equally_button"
             style="@style/CalcButtonNumbersStyle"
+            android:onClick="onOperationClick"
             android:layout_width="0dp"
             android:layout_weight="2.21"
             android:backgroundTint="@color/color_equally"
-            android:text="@string/equally" />
+            android:text="@string/equally"
+            tools:ignore="UsingOnClickInXml" />
     </LinearLayout>
 
 

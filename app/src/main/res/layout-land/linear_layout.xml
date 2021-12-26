@@ -7,16 +7,16 @@
 
 
     <TextView
-        android:id="@+id/calc_result"
+        android:id="@+id/field_calc_result"
         style="@style/StyleTextButtonResult"
         android:textSize="@dimen/size_string_numbers_result" />
 
     <TextView
-        android:id="@+id/result_button"
+        android:id="@+id/field_operation"
         style="@style/StyleTextButtonResult" />
 
     <TextView
-        android:id="@+id/field_for_numbers"
+        android:id="@+id/field_numbers"
         style="@style/StyleTextButtonResult" />
 
     <LinearLayout
