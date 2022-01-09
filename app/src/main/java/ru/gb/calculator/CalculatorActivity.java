@@ -27,7 +27,10 @@ public class CalculatorActivity extends AppCompatActivity {
             setContentView(R.layout.linear_layout);
         }else if (intent != null && intent.hasExtra(ChoosingThemeActivity.RED)){
             setContentView(R.layout.red_theme_layout);
+
         }
+
+
 
 
 

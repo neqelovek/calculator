@@ -42,6 +42,7 @@ public class ChoosingThemeActivity extends AppCompatActivity implements View.OnC
                 Intent redThemIntent = new Intent(this, CalculatorActivity.class);
                 redThemIntent.putExtra(RED, RED);
                 startActivity(redThemIntent);
+
         }
 
 

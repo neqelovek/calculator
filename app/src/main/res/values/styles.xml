@@ -86,6 +86,7 @@
         <item name="android:onClick">onNumberClick</item>
     </style>
 
+
     <style name="RedButtonActionStyle">
         <item name="rippleColor">@color/color_red_button_action</item>
         <item name="cornerRadius">@dimen/corner_radius_button</item>
