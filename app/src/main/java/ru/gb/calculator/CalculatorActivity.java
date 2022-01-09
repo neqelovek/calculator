@@ -4,12 +4,13 @@ package ru.gb.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class CalculatorActivity extends AppCompatActivity {
 
     TextView resultField;
     TextView operationField;
@@ -20,7 +21,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+
+        Intent intent = getIntent();
+        if(intent != null && intent.hasExtra(ChoosingThemeActivity.STANDARD)) {
+            setContentView(R.layout.linear_layout);
+        }else if (intent != null && intent.hasExtra(ChoosingThemeActivity.RED)){
+            setContentView(R.layout.red_theme_layout);
+        }
+
+
+
 
         resultField = findViewById(R.id.field_calc_result);
         operationField = findViewById(R.id.field_operation);

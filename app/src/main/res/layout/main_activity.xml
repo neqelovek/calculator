@@ -13,7 +13,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:text="@string/standard_style"
-          style="@style/ButtonSelectionStyle"/>
+          style="@style/ButtonSelectionStyle"
+            android:id="@+id/standard_theme"/>
 
         <com.google.android.material.button.MaterialButton
             android:text="@string/black_style"
@@ -50,6 +51,7 @@
             style="@style/ButtonSelectionStyle" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/red_theme"
             android:text="@string/red_style"
             style="@style/ButtonSelectionStyle" />
     </LinearLayout>

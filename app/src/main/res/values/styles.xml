@@ -70,4 +70,44 @@
     </style>
 
 
+    <style name="RedButtonNumbersStyle">
+        <item name="rippleColor">@color/black</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_button</item>
+        <item name="android:layout_height">@dimen/height_button</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:onClick">onNumberClick</item>
+    </style>
+
+    <style name="RedButtonActionStyle">
+        <item name="rippleColor">@color/color_red_button_action</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_btn_action</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_of_signs</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:onClick">onOperationClick</item>
+    </style>
+
+    <style name="RedStyleTextButtonResult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/size_string_numbers</item>
+    </style>
+
+
 </resources>
