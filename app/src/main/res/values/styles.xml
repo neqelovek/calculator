@@ -110,5 +110,37 @@
         <item name="android:textSize">@dimen/size_string_numbers</item>
     </style>
 
+    <style name="BlackButtonActionStyle">
+        <item name="rippleColor">@color/color_ripple_button_action</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_btn_action</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_black_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:onClick">onOperationClick</item>
+    </style>
+
+    <style name="BlackButtonNumbersStyle">
+        <item name="rippleColor">@color/blue</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+        <item name="strokeWidth">@dimen/stroke_width_button</item>
+        <item name="android:layout_width">@dimen/width_button</item>
+        <item name="android:layout_height">@dimen/height_button</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_margin">@dimen/size_whitespace</item>
+        <item name="android:layout_weight">@dimen/weight_button_numbers</item>
+        <item name="android:backgroundTint">@color/color_black_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:onClick">onNumberClick</item>
+    </style>
+
 
 </resources>

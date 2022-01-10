@@ -22,4 +22,5 @@
     <color name="text_color_button_selection">#FFEB3B</color>
     <color name="redThemBackground">#DF2642</color>
     <color name="color_red_button_action">#ED4C4C</color>
+    <color name="color_black_button">#4A4141</color>
 </resources>
