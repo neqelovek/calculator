@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/img_black2"
     android:orientation="vertical">
 
 
@@ -14,16 +14,16 @@
 
     <TextView
         android:id="@+id/field_calc_result"
-        style="@style/StyleTextButtonResult"
+        style="@style/RedStyleTextButtonResult"
         android:textSize="@dimen/size_string_numbers_result" />
 
     <TextView
         android:id="@+id/field_operation"
-        style="@style/StyleTextButtonResult" />
+        style="@style/RedStyleTextButtonResult" />
 
     <TextView
         android:id="@+id/field_numbers"
-        style="@style/StyleTextButtonResult" />
+        style="@style/RedStyleTextButtonResult" />
 
 
     <LinearLayout
@@ -33,25 +33,31 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/plus_button"
-            style="@style/CalcButtonActionStyle"
+            style="@style/BlackButtonActionStyle"
             android:onClick="onOperationClick"
             android:text="@string/plus"
             tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/minus_button"
-            style="@style/CalcButtonActionStyle"
-            android:text="@string/minus" />
+            style="@style/BlackButtonActionStyle"
+            android:onClick="onOperationClick"
+            android:text="@string/minus"
+            tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/to_share_button"
-            style="@style/CalcButtonActionStyle"
-            android:text="@string/to_share" />
+            style="@style/BlackButtonActionStyle"
+            android:onClick="onOperationClick"
+            android:text="@string/to_share"
+            tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/multiply_button"
-            style="@style/CalcButtonActionStyle"
-            android:text="@string/multiply" />
+            style="@style/BlackButtonActionStyle"
+            android:onClick="onOperationClick"
+            android:text="@string/multiply"
+            tools:ignore="UsingOnClickInXml" />
     </LinearLayout>
 
 
@@ -62,17 +68,17 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/seven_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/seven" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/eight_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/eight" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nine_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/nine" />
     </LinearLayout>
 
@@ -83,17 +89,17 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/four_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/four" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/five_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/five" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/six_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/six" />
     </LinearLayout>
 
@@ -105,17 +111,17 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/first_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/one" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/two_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/two" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/three_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/three" />
     </LinearLayout>
 
@@ -127,13 +133,13 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/clean_button"
-            style="@style/CalcButtonActionStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:layout_height="56dp"
             android:text="@string/clean" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/zero_button"
-            style="@style/CalcButtonNumbersStyle"
+            style="@style/BlackButtonNumbersStyle"
             android:text="@string/zero" />
 
         <com.google.android.material.button.MaterialButton

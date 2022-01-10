@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="size_text">20sp</dimen>
-    <dimen name="size_whitespace">5dp</dimen>
-    <dimen name="size_string_numbers">30sp</dimen>
-    <dimen name="size_string_numbers_result">50sp</dimen>
+    <dimen name="size_whitespace">1dp</dimen>
+    <dimen name="size_string_numbers">18sp</dimen>
+    <dimen name="size_string_numbers_result">30sp</dimen>
     <dimen name="corner_radius_button">16dp</dimen>
-    <dimen name="stroke_width_button">2dp</dimen>
+    <dimen name="stroke_width_button">1dp</dimen>
     <dimen name="width_button">0dp</dimen>
-    <dimen name="height_button">56dp</dimen>
+    <dimen name="height_button">46dp</dimen>
     <dimen name="weight_button_numbers">1</dimen>
     <dimen name="width_btn_action">0dp</dimen>
 </resources>
