@@ -26,7 +26,7 @@
     <string name="memory_read">MR</string>
     <string name="standard_style">Standard style</string>
     <string name="black_style">Black style</string>
-    <string name="light_style">Light Style</string>
+    <string name="green_style">Green Style</string>
     <string name="red_style">Red style</string>
-    <string name="choose_style">Choose style calaculator</string>
+    <string name="choose_style">Choose style calculator</string>
 </resources>

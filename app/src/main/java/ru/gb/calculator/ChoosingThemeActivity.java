@@ -25,12 +25,16 @@ public class ChoosingThemeActivity extends AppCompatActivity implements View.OnC
         Button blackThemeBtn = findViewById(R.id.black_theme_btn);
         blackThemeBtn.setOnClickListener(this);
 
+        Button greenThemeBtn = findViewById(R.id.green_theme_btn);
+        greenThemeBtn.setOnClickListener(this);
+
 
     }
 
     public static final String STANDARD = "STANDARD";
     public static final String RED = "RED";
     public static final String BLACK = "BLACK";
+    public static final String GREEN = "GREEN";
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -49,9 +53,16 @@ public class ChoosingThemeActivity extends AppCompatActivity implements View.OnC
                 break;
 
             case R.id.black_theme_btn:
-                Intent blackThemeIntent = new Intent(this,CalculatorActivity.class);
-                blackThemeIntent.putExtra(BLACK,BLACK);
+                Intent blackThemeIntent = new Intent(this, CalculatorActivity.class);
+                blackThemeIntent.putExtra(BLACK, BLACK);
                 startActivity(blackThemeIntent);
+                break;
+
+            case R.id.green_theme_btn:
+                Intent greenThemeIntent = new Intent(this, CalculatorActivity.class);
+                greenThemeIntent.putExtra(GREEN, GREEN);
+                startActivity(greenThemeIntent);
+                break;
         }
 
 

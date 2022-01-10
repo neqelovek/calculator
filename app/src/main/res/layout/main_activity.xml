@@ -12,14 +12,14 @@
 
 
         <com.google.android.material.button.MaterialButton
-            android:text="@string/standard_style"
-          style="@style/ButtonSelectionStyle"
-            android:id="@+id/standard_theme_btn"/>
+            android:id="@+id/standard_theme_btn"
+            style="@style/ButtonSelectionStyle"
+            android:text="@string/standard_style" />
 
         <com.google.android.material.button.MaterialButton
-            android:text="@string/black_style"
+            android:id="@+id/black_theme_btn"
             style="@style/ButtonSelectionStyle"
-            android:id="@+id/black_theme_btn"/>
+            android:text="@string/black_style" />
 
 
     </LinearLayout>
@@ -29,11 +29,7 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:text="@string/choose_style"/>
+    <TextView style="@style/StyleTextChoosing" />
 
 
     <Space
@@ -48,13 +44,14 @@
 
 
         <com.google.android.material.button.MaterialButton
-            android:text="@string/light_style"
-            style="@style/ButtonSelectionStyle" />
+            android:id="@+id/green_theme_btn"
+            style="@style/ButtonSelectionStyle"
+            android:text="@string/green_style" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/red_theme_btn"
-            android:text="@string/red_style"
-            style="@style/ButtonSelectionStyle" />
+            style="@style/ButtonSelectionStyle"
+            android:text="@string/red_style" />
     </LinearLayout>
 
 </LinearLayout>

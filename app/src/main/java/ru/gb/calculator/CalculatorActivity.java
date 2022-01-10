@@ -23,16 +23,15 @@ public class CalculatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        if(intent != null && intent.hasExtra(ChoosingThemeActivity.STANDARD)) {
+        if (intent != null && intent.hasExtra(ChoosingThemeActivity.STANDARD)) {
             setContentView(R.layout.linear_layout);
-        }else if (intent != null && intent.hasExtra(ChoosingThemeActivity.RED)){
+        } else if (intent != null && intent.hasExtra(ChoosingThemeActivity.RED)) {
             setContentView(R.layout.red_theme_layout);
         } else if (intent != null && intent.hasExtra(ChoosingThemeActivity.BLACK)) {
             setContentView(R.layout.black_theme_layout);
+        } else if (intent != null && intent.hasExtra(ChoosingThemeActivity.GREEN)) {
+            setContentView(R.layout.green_theme_layout);
         }
-
-
-
 
 
         resultField = findViewById(R.id.field_calc_result);

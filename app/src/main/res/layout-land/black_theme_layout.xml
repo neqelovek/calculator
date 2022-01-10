@@ -32,30 +32,30 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/plus_button"
             style="@style/BlackButtonActionStyle"
-            android:text="@string/plus"
             android:onClick="onOperationClick"
+            android:text="@string/plus"
             tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/minus_button"
             style="@style/BlackButtonActionStyle"
-            android:text="@string/minus"
             android:onClick="onOperationClick"
-            tools:ignore="UsingOnClickInXml"/>
+            android:text="@string/minus"
+            tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/to_share_button"
             style="@style/BlackButtonActionStyle"
-            android:text="@string/to_share"
             android:onClick="onOperationClick"
-            tools:ignore="UsingOnClickInXml"/>
+            android:text="@string/to_share"
+            tools:ignore="UsingOnClickInXml" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/multiply_button"
             style="@style/BlackButtonActionStyle"
-            android:text="@string/multiply"
             android:onClick="onOperationClick"
-            tools:ignore="UsingOnClickInXml"/>
+            android:text="@string/multiply"
+            tools:ignore="UsingOnClickInXml" />
     </LinearLayout>
 
 
